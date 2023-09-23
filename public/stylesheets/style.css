@@ -1,0 +1,91 @@
+/* File: style.css
+   Student’s Name: Hsin Tung, Chen
+   Student ID: 301270943
+   Date: September 22, 2023 */
+
+/* CSS code as below */
+
+/* Base styles for the entire page */
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  line-height: 2.5;
+}
+
+/* Link styles */
+a {
+  color: #00B7FF;
+}
+
+/* Logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+/* Triangle shape in the logo */
+.triangle {
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+}
+
+/* Initials in the logo */
+.initials {
+  margin-left: 10px;
+  color: #007bff;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Specific style for a class */
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Specific style for an ID */
+#special-section {
+  background-color: #f0f0f0;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+}
+
+.centered-content {
+  /* Flexbox properties for centering */
+  display: flex;
+  justify-content: center;
+  /* Horizontal centering */
+  align-items: center;
+
+  /* Set a maximum width for the centered content */
+  max-width: 800px;
+  /* Adjust to your desired maximum width */
+  margin: 0 auto;
+  /* Add padding for spacing */
+  padding: 20px;
+  /* Center-align text within the container */
+  text-align: center;
+}
