@@ -1,6 +1,6 @@
 /* File: app.js
-   Student’s Name: Hsin Tung, Chen
-   Student ID: 301270943
+   Student’s Name: 
+   Student ID: 
    Date: September 22, 2023 */
 
 /* Code as below */
